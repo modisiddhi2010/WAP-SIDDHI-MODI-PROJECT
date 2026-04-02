@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    padding: 15px;
+    background: #222;
+    color: white;
+}
+
+input, select {
+    margin: 5px;
+    padding: 8px;
+}
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
+#movies, #favorites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    width: 160px;
+}
+
+img {
+    width: 100%;
+}
+
+
+@media (max-width: 600px) {
+    .movie {
+        width: 120px;
+    }
+}

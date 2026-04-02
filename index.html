@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MovieVerse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎬 MovieVerse</h1>
+
+    <input type="text" id="searchInput" placeholder="Search movies...">
+    
+    <select id="filterType">
+    <option value="">All</option>
+    <option value="recent">Recent (after 2020)</option>
+    </select>
+
+ 
+
+    <select id="sortType">
+        <option value="">Sort</option>
+        <option value="year">Year</option>
+        <option value="title">Title</option>
+    </select>
+
+    <button onclick="toggleDarkMode()">🌙</button>
+</header>
+
+<p id="loading" style="display:none;">Loading...</p>
+<p id="error"></p>
+
+<div id="movies"></div>
+
+<h2>❤️ Favorites</h2>
+<div id="favorites"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
