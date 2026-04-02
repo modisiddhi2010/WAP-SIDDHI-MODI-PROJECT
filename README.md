@@ -58,28 +58,7 @@ I have used the **TMDB (The Movie Database) API**, which provides a large collec
 
 ---
 
-## Project Structure
 
 
 
----
-
-## How to Run
-
-1. Clone or download the repository  
-2. Open the project folder  
-3. Open `index.html` in any browser  
-
----
-
-## Setup Instructions
-
-To run this project properly, you need an API key.
-
-1. Get your API key from TMDB  
-2. Open `script.js`  
-3. Replace:
-
-```javascript
-const API_KEY = "0f2255d1e244258b05ac309d90dd8f14"; 
 
